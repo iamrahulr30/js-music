@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maniac</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hi.css">
+    <script src="hi.js" defer></script>
+</head>
+<body>
+    <div class="ok">
+       <h1>Playlist</h1>
+    </div>
+    <div class="music">
+        <div class="frame">
+        Music
+        <div class="music-info">
+            <h4 id="title">Hislerim(PaglaSongs)</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="music/Hislerim(PaglaSongs).mp3"></audio>
+        <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+            <!-- <a href="#" class="previous">&laquo; &#8249;Previous</a>
+            <a href="#" class="next">Next &raquo;&#8250;</a> -->
+            <i class="fas fa-play"></i>
+            <!-- <object  class="start"></object> -->
+        </button>
+        <button id="next" class="action-btn ">
+            <i class="fas fa-forward"></i>
+        </button>
+        </div>
+        <div class="vlsh-cont">
+            <div class="vol">
+                <i class="vv fa fa-volume-high"></i>
+                <div class="volume-container">
+                    <div class="volprogress"></div>
+                </div>
+            </div>
+            <i class="fa fa-shuffle"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
